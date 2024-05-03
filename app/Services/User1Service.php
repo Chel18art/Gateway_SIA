@@ -51,7 +51,7 @@ class User1Service{
      */
     public function editUser1($data, $id)
     {
-        return $this->performRequest('PUT',"/users/{$id}");
+        return $this->performRequest('PUT',"/users/{$id}", $data);
     }
 
         /**
